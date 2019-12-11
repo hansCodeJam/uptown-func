@@ -3,27 +3,27 @@ function call(func) {
 }
 
 function callTwice(func) {
-  for(let i = 0; i<2; i++){
-    func()
-  }
+  for(let i = 0; i < 2; i++) {
+    func();
+  };
 }
 
 function callXTimes(func, times) {
   for(let i = 0; i < times; i++) {
-    func()
+    func();
   }
 }
 
 function returnFromFunc(func) {
-  return func();
+  return func()
 }
 
 function modifyString(str, func) {
-  return func(str);
+  return func((str))
 }
 
 function modifyNumber(num, func) {
-  return func(num);
+  return func(num)
 }
 
 function modifyAnything(value, func) {
@@ -35,7 +35,7 @@ function twoFuncs(func1, func2) {
 }
 
 function twoValues(val1, val2, func) {
-  return func(val1, val2);
+  return func(val1, val2)
 }
 
 function twoValuesRTL(fn, ln, func) {
